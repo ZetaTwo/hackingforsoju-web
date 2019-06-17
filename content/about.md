@@ -3,7 +3,7 @@ date = "2019-05-13"
 title = "About"
 +++
 
-_HackingForSoju is a primarily Swedish CTF team with over ten years in the game._
+_HackingForSoju is a Swedish CTF team with over ten years in the game._
 
 There could be some more history here but it's not written yet.
 
