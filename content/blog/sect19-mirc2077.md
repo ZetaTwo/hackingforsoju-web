@@ -1,5 +1,9 @@
+---
+author: "likvidera"
+date: 2019-09-23
+title: "Write up - SEC-T 2019: Mirc2077"
+---
 
-# Mirc2077
 ## Intro
 I made this challenge for the SEC-T CTF 2019. It has two parts and is meant to be a minimal 'browser-pwnable'. The javascript engine used is Duktape (https://duktape.org). A custom bug was introduced to it which can be used to get code-execution in the JS-interpreter-process. This process is heavily sandboxed with Seccomp and the second part of the challenge is about escaping it by exploiting an IPC-bug in the main-process.
 
@@ -300,7 +304,7 @@ The payload is simply a one_gadget / god_gadget from the libc which can be found
 ## Exploit moneyshot
 ![WIN](/img/sect2019/win.png)  
 
-# Creds
+## Creds
 **b0bb** - for proof-reading and suggestions  
 **je / OwariDa** - for the PIE-fixup script  
 **saelo** - for the 64bit JS-framework  
